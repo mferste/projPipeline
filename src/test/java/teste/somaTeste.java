@@ -14,6 +14,6 @@ public class somaTeste {
 		soma conta = new soma();
 		result = conta.soma(10.0, 5.0);
 		
-		Assert.assertEquals(10.0, result, 0);
+		Assert.assertEquals(15.0, result, 0);
 	}
 }
